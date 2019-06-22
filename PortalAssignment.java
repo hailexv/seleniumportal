@@ -32,7 +32,7 @@ public class Autotest {
  PrintWriter writer = new PrintWriter("report.xls", "UTF-8");
          
  
- driver.findElement(By.name("UserName")).sendKeys("Ate/5001/09");
+ driver.findElement(By.name("UserName")).sendKeys("Atr/0297/09");
   driver.findElement(By.name("Password")).sendKeys("");
   driver.findElement(By.className("btn-success")).click();
   
